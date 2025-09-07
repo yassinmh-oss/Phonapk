@@ -1,7 +1,7 @@
-# المكتبات الأساسية
-kivy==2.3.0
-plyer==2.1.0
+# الأساسيات
+pip install kivy==2.3.0
+pip install plyer==2.1.0
 
-# المكتبات الاختيارية (لتحسين الأداء)
-pillow>=9.0.0  # لمعالجة الصور
-pyjnius>=1.4.2  # للوصول إلى Java (لـ Android)
+# لميزات إضافية
+pip install pillow
+pip install pyjnius
